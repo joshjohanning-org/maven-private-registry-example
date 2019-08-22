@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
                     http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.mattamorphic.github-maven-package-example</groupId>
+    <groupId>com.mattamorphic</groupId>
     <artifactId>github-maven-package-example</artifactId>
     <version>0.4</version>
 

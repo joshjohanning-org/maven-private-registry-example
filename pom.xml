@@ -15,8 +15,8 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>GitHub mattamorphic Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/mattamorphic/github-maven-package-example/</url>
+            <name>GitHub joshjohanning-org/github-maven-package-example Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/joshjohanning-org/github-maven-package-example/</url>
         </repository>
     </distributionManagement>
 </project>

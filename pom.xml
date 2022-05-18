@@ -4,7 +4,7 @@
                     http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.mattamorphic</groupId>
-    <artifactId>github-maven-package-example</artifactId>
+    <artifactId>github-maven-package-sample</artifactId>
     <version>0.4</version>
 
     <properties>
@@ -15,8 +15,8 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>GitHub joshjohanning-org/github-maven-package-example Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/joshjohanning-org/github-maven-package-example/</url>
+            <name>GitHub joshjohanning-org/github-maven-package-sample Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/joshjohanning-org/github-maven-package-sample/</url>
         </repository>
     </distributionManagement>
 </project>

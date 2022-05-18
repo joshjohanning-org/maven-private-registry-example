@@ -15,7 +15,7 @@ Add the dependency to your pom.xml file:
 ```
 <dependency>
     <groupId>com.mattamorphic</groupId>
-    <artifactId>github-maven-package-example</artifactId>
+    <artifactId>github-maven-package-sample</artifactId>
     <version>VERSION</version>
 </dependency>
 ```

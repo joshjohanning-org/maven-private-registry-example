@@ -4,7 +4,7 @@
                               https://maven.apache.org/xsd/settings-1.0.0.xsd">
   <servers>
     <server>
-      <id>azdo</id>
+      <id>Java</id>
       <username>jjohanning0798</username>
       <password>${env.AZDO_TOKEN}</password>
     </server>

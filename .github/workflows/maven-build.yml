@@ -33,9 +33,9 @@ jobs:
         # server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
         # settings-path: ${{ github.workspace }} # location for the settings.xml file
     - run: cat settings.xml
-    - run: mvn help:effective-settings
-    - run: mvn install --file pom.xml
+    - run: mvn help:effective-settings -s settings.xml
+    - run: mvn install --file pom.xml -s settings.xml
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: mvn -B package --file pom.xml -s settings.xml
       env:
         AZDO_TOKEN: ${{ secrets.AZDO_TOKEN }}

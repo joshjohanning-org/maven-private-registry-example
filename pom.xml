@@ -34,10 +34,15 @@
     </dependencies>
 
     <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>GitHub joshjohanning-org/github-maven-package-sample Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/joshjohanning-org/github-maven-package-sample/</url>
-        </repository>
+      <repository>
+        <id>Java</id>
+        <url>https://pkgs.dev.azure.com/jjohanning0798/PartsUnlimited/_packaging/Java/maven/v1</url>
+        <releases>
+            <enabled>true</enabled>
+        </releases>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
+      </repository>
     </distributionManagement>
 </project>

@@ -34,7 +34,7 @@ jobs:
         # settings-path: ${{ github.workspace }} # location for the settings.xml file
     - run: cat settings.xml
     - run: mvn help:effective-settings
-    - run: maven install --file pom.xml
+    - run: mvn install --file pom.xml
     - name: Build with Maven
       run: mvn -B package --file pom.xml
       env:

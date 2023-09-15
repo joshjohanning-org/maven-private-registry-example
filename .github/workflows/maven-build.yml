@@ -26,6 +26,8 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
+        server-id: Java
+        server-password: ${{ secrets.AZDO_TOKEN }}
         # server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
         # settings-path: ${{ github.workspace }} # location for the settings.xml file
     - run: cat settings.xml
